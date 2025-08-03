@@ -1,0 +1,1114 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color :  #FFF8F2;
+    --title-page-color : #E0A96D;
+    --title-section-color : #8B5E3C;
+    --text-color : #2E2E2E;
+    font-size: 15px;
+    --title-font: 55px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--main-color);
+}
+
+/* شريط الروابط و الشعار  */
+
+#head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#head nav h1  {
+    font-family: "Permanent Marker", cursive;
+}
+#head nav {
+    background-color: #ffffff;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 14rem;
+    align-items: center;
+    width: 90%;
+    height: 3.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    z-index: 999;
+}
+#head nav ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 1.6rem;
+}
+#head nav ul a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+#head nav ul a:hover {
+    color: var(--title-page-color);
+}
+#head nav .register a {
+    text-decoration: none;
+    color: #2E2E2E;
+    margin-left: 1rem;
+}
+#head nav .register a:hover {
+    color: #E0A96D;
+}
+
+
+
+
+.hamburger {
+  display: none;
+  color: white;
+}
+
+
+/* القسم الرئيسي في الموقع الهيرو هوم */
+
+#hero-home {
+    height: 92vh;
+    width: 95%;
+    z-index: 1;
+    position: relative;
+    position: absolute;
+    top: 2.5rem;
+    margin-left: 2.2rem;
+}
+#hero-home img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    filter: brightness(0.4);
+}
+#hero-home .welcome {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color: #ffffff;
+}
+section h2 {
+    margin-bottom: 1.7rem;
+    font-size: 3.5rem;
+    
+}
+#hero-home .welcome h2 span {
+    color: var(--title-page-color);
+    font-family: "Permanent Marker", cursive;
+
+}
+#hero-home .welcome p {
+    line-height: 1.5rem;
+}
+
+/* السكشن الثاني about us  */
+
+#aboutSection {
+    margin-bottom: -53vh;
+    z-index: 999;
+    height: 65vh;
+    margin-top: 95vh;
+}
+section h3{
+    margin: 4rem 0 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--title-section-color);
+    font-weight: 700;
+    font-family: "Permanent Marker", cursive;
+
+}
+#aboutSection .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#aboutSection  img {
+    height: 24rem;
+    width: 34rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+/* الجزء اليمين من سكشين  */
+}
+#aboutSection .right-part {
+    height: 24rem;
+    max-width: 34rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+    
+}
+section h4 {
+    font-size: 1.8rem;    
+    margin: 1.5rem;
+    color: var(--title-section-color);
+    font-weight: 700;
+
+}
+#aboutSection p {
+    padding: 0 2.5rem;
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 2.5rem;
+
+}
+section .but {
+    margin-top: 2.5rem;
+    background-color: var(--title-section-color);
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.8rem 3rem;
+    border-radius: 30px;
+}
+section .but:hover {
+    background-color: var(--title-page-color);
+}
+
+/* السكشن الثالث الخاص بالغرف */
+
+/* القسم الثالث احجز الان  */
+
+#Booking-now {
+    height: 60vh;
+    width: 90%;
+    z-index: 1;
+    position: relative;
+    margin: 2rem 5% ;
+}
+#Booking-now img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    filter: brightness(0.4);
+}
+#Booking-now div {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color: #ffffff;
+}
+#Booking-now div h4 {
+    font-size: 2.5rem ;
+    color: var(--title-page-color);
+    font-family: "Permanent Marker", cursive;
+    
+}
+#Booking-now div p {
+    margin-bottom: 4.5rem;
+}
+
+/* السكشن الرابع أراء الزبائن */
+
+#customer-opin {
+    width: 100%;
+    height: 45vh;
+}
+.all-opinions{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+#customer-opin .opinions-card {
+    min-height: 12.6rem;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2.5rem;
+        transition:transform 0.3s ease,box-shadow 0.3s ease;
+
+}
+#customer-opin .opinions-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);  
+}
+#customer-opin img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    z-index: 999;
+    left: 2.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* margin-bottom: 2rem; */
+    position: relative;
+    bottom: 2.5rem;
+}
+
+#customer-opin div p:nth-child(2) {
+    margin: -2rem 2.5rem ;
+    line-height: 1.2rem;
+    font-family: "Permanent Marker", cursive;
+}
+#customer-opin div p:nth-child(3) {
+    margin: 2.5rem 2.5rem 0 ;
+    color: var(--title-page-color);
+}
+#customer-opin h3 {
+    margin-top: 5rem;
+}
+#customer-opin .opinions-card .stars {
+    margin-left: 2.5rem;
+
+}
+/* الفووووتر */
+
+#main-foot {
+    margin-top: 4rem;
+    background-color: var(--title-section-color);
+    height: 45vh;
+}
+#main-foot .footer-details {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    color: #ffffff;
+}
+#main-foot .footer-details div {
+    margin-top: 3rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#main-foot .footer-details  div p:nth-child(1){
+    margin-bottom: 1.5rem;
+}
+#main-foot .footer-details  div *:not(:first-child){
+    font-weight: 100;
+    margin-top: 0.5rem;
+
+}
+
+#main-foot .footer-details .Quick-Links a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #ffffff;
+}
+#main-foot .footer-details .Quick-Links a:hover {
+    color: var(--title-page-color);
+}
+#main-foot .Follow-Us {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#main-foot .Follow-Us a i {
+    font-size: 2rem;
+    margin-right: 1.2rem;
+    transition: 0.7s ease;
+}
+#main-foot .Follow-Us a i:hover{
+    transform: scale(1.2) rotate(5deg);
+
+}
+
+/* الصفحة الثانية صفحة aboutus */
+
+
+#hero {
+    height: 50vh;
+    width: 95%;
+    z-index: 1;
+    position: relative;
+    position: absolute;
+    top: 2.5rem;
+    margin-left: 2.2rem;
+}
+#hero img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    filter: brightness(0.4);
+}
+#hero .welcome {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+#hero .welcome h2 span {
+    color: var(--title-page-color);
+    font-family: "Permanent Marker", cursive;
+
+}
+#hero .welcome p {
+    line-height: 1.5rem;
+}
+
+/* قسم رسالة الفندق */
+
+#Hotel-Vision{
+    margin-top: 53vh;
+}
+#Hotel-Vision p {
+    width: 80%;
+    font-size: 2rem;
+    margin: 3rem 10% 0;
+    line-height: 2.5rem;
+    text-align: justify;
+    text-align-last: center;
+    font-weight: bold;
+
+}
+
+ /* قسم الصور للموقع   */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 13rem);
+    grid-template-areas:
+    "img1 img1 img2"
+    "img3 img4 img2"
+    "img5 img6 img6";
+    gap: 0.5rem;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+
+}
+/* تعيين المناطق */
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.img4 { grid-area: img4; }
+.img5 { grid-area: img5; }
+.img6 { grid-area: img6; }
+
+
+
+/* قسم احصائيات الفندق */
+
+#Facts-About {
+    margin-bottom: 5rem
+}
+#Facts-About .hotel-details {
+    display: flex;  
+    justify-content: center;
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 1.5rem;  
+    height: 7rem;
+    margin: 2.5rem 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+#Facts-About .hotel-details div {
+    display: inherit;
+    flex-direction: column ;
+    align-items: center;
+    gap: 0.9em;
+}
+#Facts-About .hotel-details div p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--title-section-color);
+}
+#Facts-About .hotel-details div h6 {
+    font-size: 1.5rem;
+    font-weight: bold;
+} 
+
+/* صفحة الغرف */
+#roomsection {
+        margin-top: 53vh;
+
+}
+.allrooms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+}
+#roomsection .roomcard {
+    display: flex;
+    flex-direction: column;
+}
+
+#roomsection .roomcard img {
+    width: 19rem;
+    height: 15rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#roomsection .roomcard .room-details {
+    background-color: white;
+    width: 17rem;
+    height: 14rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.7rem;
+    position: relative;
+    left: 1rem;
+    bottom: 2.5rem;
+    text-align: center;
+
+}
+
+#roomsection .roomcard .room-details h5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+    color: var(--text-color);
+}
+#roomsection .roomcard .room-details  p {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+#roomsection .roomcard .room-details  p  span {
+    color: var(--title-page-color);
+    font-weight: bold;
+}
+#roomsection .roomcard .room-details .services {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+}
+#roomsection .roomcard .room-details .links  {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#roomsection .roomcard .room-details a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+#roomsection .roomcard .room-details a:hover {
+    color: var(--title-page-color);
+}
+
+/* صفحة حجز الغرف الان */
+#booking-input {
+    margin-top: 53vh;
+}
+#booking-input .booking-form{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+} 
+#booking-input .booking-form form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+#booking-input .booking-form form div {
+    width: 60%;
+    height: 3rem;
+    display: flex ;
+    gap: 5rem;
+}
+#booking-input .booking-form form div input,textarea {
+    width: 100%;
+    padding: 1rem;  
+}
+
+#booking-input .booking-form form div textarea {
+    min-height: 10rem;
+}
+#booking-input .booking-form form a {
+    margin-top: 6rem;
+}
+#booking-input .booking-form form p {
+    margin-top: 0;
+    /* filter: opacity(0.7); */
+    font-size: 1.5rem;
+}
+
+/* صفحة التواصل معناا */
+
+#connection {
+    margin-bottom: -53vh;
+    margin-top: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 30vh;
+}
+#connection div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--title-section-color);
+    border-radius: 1.5rem;
+    width: 15rem;
+    height: 10rem;
+    transition: transform 0.5s ease;
+}
+#connection div:hover {
+    transform: scale(1.05);
+}
+#connection div i {
+    font-size: 1.3rem;
+}
+#connection div p {
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+}
+#connection div p:nth-child(2){
+    font-weight: bold;
+    margin: 0.8rem 0;
+    font-size: 1.2rem ;
+}
+#connection div p:nth-child(3){
+    font-size: 0.9rem;
+    filter: opacity(0.7);
+}
+
+/* صفحة التسجيل الجديد عل الموقع */
+
+#signup-section {
+    display: flex;
+    justify-content: center;
+    height: 97vh;
+    /* align-items: center; */
+    gap: 2rem;
+}
+#signup-section .sign-img {
+    width: 50%;
+    height: 100%;
+}
+#signup-section .sign-img img {
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    border-radius: 1.5rem;
+    margin: 0.5rem;
+    
+}
+#signup-section .sign-img div {
+    
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 999;
+}
+#signup-section .sign-form{
+    width: 50%;
+    height: 100%;
+}
+#signup-section .sign-form .signwith{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+#signup-section .sign-form .signwith a {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: #ffffff;
+    border-radius: 3rem;
+    padding: 0.7rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+#signup-section .sign-form .signwith a:hover {
+    background-color: #ededed;
+}
+#signup-section .sign-form  form  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem 5rem 2rem;
+    gap: 1.5rem;
+}
+#signup-section .sign-form  form  input  {
+    padding: 1rem;
+    border-radius: 5px;
+}
+#signup-section .sign-form  form  div:nth-child(5) {
+    display: flex;
+    gap: 0.5rem;
+
+}
+#signup-section .sign-form form  .submit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+#signup-section .sign-form form  .submit p a{
+    text-decoration: none;
+    color: var(--title-section-color);
+}
+#signup-section .sign-form form  .submit p a:hover {
+    color: var(--title-page-color);
+}
+
+ @media screen and (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+        --title-font: 45px;
+    }
+    
+    /* Navigation adjustments */
+    #head nav {
+        gap: 8rem;
+        width: 95%;
+    }
+    
+    /* Hero section */
+    #hero-home, #hero {
+        width: 97%;
+        margin-left: 1.5rem;
+    }
+    
+    /* About section */
+    #aboutSection .details {
+        gap: 1.5rem;
+    }
+    
+    #aboutSection img, 
+    #aboutSection .right-part {
+        height: 20rem;
+        width: 28rem;
+    }
+    
+    /* Rooms section */
+    .allrooms {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    /* Customer opinions */
+    .all-opinions {
+        gap: 3rem;
+    }
+    
+    /* Footer */
+    #main-foot .footer-details {
+        gap: 8rem;
+    }
+    
+    /* Gallery grid adjustment */
+    .gallery {
+        max-width: 60rem;
+        grid-template-rows: repeat(3, 11rem);
+    }
+}
+
+/* ===============================
+   MOBILE LANDSCAPE - 768px
+   =============================== */
+
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 13px;
+        --title-font: 35px;
+    }
+    
+    /* Navigation */
+    #head nav {
+        gap: 2rem;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    #head nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* Show hamburger menu */
+    .hamburger {
+        display: block !important;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        font-size: 1.5rem;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+    
+    /* Hide menu items initially on mobile */
+    #head nav ul,
+    #head nav .register {
+        display: none;
+    }
+    
+    /* Hero sections */
+    #hero-home {
+        height: 70vh;
+        margin-top: 8rem;
+    }
+    
+    #hero {
+        height: 40vh;
+        margin-top: 8rem;
+    }
+    
+    section h2 {
+        font-size: 2.5rem;
+    }
+    
+    /* About section */
+    #aboutSection {
+        margin-top: 75vh;
+    }
+    
+    #aboutSection .details {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #aboutSection img, 
+    #aboutSection .right-part {
+        width: 90%;
+        height: auto;
+        min-height: 18rem;
+    }
+    
+    #aboutSection p {
+        padding: 0 1.5rem;
+    }
+    
+    /* Rooms section */
+    #roomsection {
+        margin-top: 45vh;
+    }
+    
+    .allrooms {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #roomsection .roomcard img {
+        width: 85vw;
+        max-width: 25rem;
+    }
+    
+    #roomsection .roomcard .room-details {
+        width: 80vw;
+        max-width: 23rem;
+    }
+    
+    /* Booking section */
+    #Booking-now {
+        width: 95%;
+        height: 45vh;
+    }
+    
+    /* Customer opinions */
+    .all-opinions {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    #customer-opin .opinions-card {
+        width: 85%;
+        min-height: 14rem;
+    }
+    
+    /* Footer */
+    #main-foot .footer-details {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    /* Hotel Vision */
+    #Hotel-Vision p {
+        width: 90%;
+        margin: 3rem 5%;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    /* Gallery */
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 10rem);
+        grid-template-areas:
+        "img1 img1"
+        "img2 img3"
+        "img4 img5"
+        "img6 img6";
+        max-width: 90%;
+    }
+    
+    /* Facts section */
+    #Facts-About .hotel-details {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+    
+    /* Connection page */
+    #connection {
+        flex-direction: column;
+        height: auto;
+        gap: 1.5rem;
+    }
+    
+    /* Booking form */
+    #booking-input .booking-form form div {
+        flex-direction: column;
+        gap: 1rem;
+        width: 80%;
+    }
+    
+    /* Signup section */
+    #signup-section {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #signup-section .sign-img,
+    #signup-section .sign-form {
+        width: 95%;
+    }
+    
+    #signup-section .sign-form form {
+        margin: 2rem 2rem;
+    }
+}
+
+/* ===============================
+   MOBILE PORTRAIT - 480px
+   =============================== */
+
+@media screen and (max-width: 480px) {
+    :root {
+        font-size: 12px;
+        --title-font: 28px;
+    }
+    
+    /* Navigation */
+    #head nav {
+        width: 98%;
+        margin-top: 0.5rem;
+        height: 3rem;
+        padding: 0.5rem;
+    }
+    
+    #head nav h1 {
+        font-size: 1.3rem;
+    }
+    
+    /* Hero sections */
+    #hero-home {
+        height: 60vh;
+        width: 98%;
+        margin-left: 1%;
+    }
+    
+    #hero {
+        height: 35vh;
+        width: 98%;
+        margin-left: 1%;
+    }
+    
+    section h2 {
+        font-size: 2rem;
+    }
+    
+    section h3 {
+        font-size: 1.5rem;
+    }
+    
+    /* About section */
+    #aboutSection {
+        margin-top: 65vh;
+    }
+    
+    #aboutSection img, 
+    #aboutSection .right-part {
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    
+    section h4 {
+        font-size: 1.4rem;
+    }
+    
+    /* Rooms section */
+    #roomsection .roomcard img {
+        width: 90vw;
+    }
+    
+    #roomsection .roomcard .room-details {
+        width: 85vw;
+        left: 2.5vw;
+    }
+    
+    #roomsection .roomcard .room-details .links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    /* Booking section */
+    #Booking-now {
+        height: 40vh;
+    }
+    
+    #Booking-now div h4 {
+        font-size: 1.8rem;
+    }
+    
+    /* Customer opinions */
+    #customer-opin .opinions-card {
+        width: 90%;
+        margin: 1rem 5%;
+    }
+    
+    /* Footer */
+    #main-foot {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    
+    #main-foot .footer-details div {
+        margin-top: 2rem;
+    }
+    
+    /* Gallery */
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 8rem);
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6";
+        max-width: 95%;
+    }
+    
+    /* Hotel Vision */
+    #Hotel-Vision p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    
+    /* Connection cards */
+    #connection div {
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+    /* Booking form */
+    #booking-input .booking-form {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    #booking-input .booking-form form div {
+        width: 90%;
+    }
+    
+    /* Signup section */
+    #signup-section .sign-form .signwith {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #signup-section .sign-form form {
+        margin: 1rem;
+    }
+}
+
+/* ===============================
+   EXTRA SMALL MOBILE - 320px
+   =============================== */
+
+@media screen and (max-width: 320px) {
+    :root {
+        font-size: 11px;
+        --title-font: 24px;
+    }
+    
+    /* Hero sections */
+    section h2 {
+        font-size: 1.8rem;
+    }
+    
+    /* Rooms */
+    #roomsection .roomcard .room-details .services {
+        font-size: 0.8rem;
+    }
+    
+    /* Customer opinions */
+    #customer-opin .opinions-card {
+        width: 95%;
+        padding: 0.5rem;
+    }
+    
+    #customer-opin div p:nth-child(2) {
+        margin: -2rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    #customer-opin div p:nth-child(3) {
+        margin: 2rem 1rem 0;
+    }
+    
+    /* Gallery */
+    .gallery {
+        grid-template-rows: repeat(6, 7rem);
+    }
+    
+    /* Booking form */
+    #booking-input .booking-form form {
+        gap: 2rem;
+    }
+}
