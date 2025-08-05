@@ -946,28 +946,30 @@ section .but:hover {
     
     /* Hero sections */
     #hero-home {
-        height: 60vh;
+        height: 40vh;
         width: 98%;
         margin-left: 1%;
+        margin-top: 5rem;
     }
     
     #hero {
-        height: 35vh;
+        height: 30vh;
         width: 98%;
         margin-left: 1%;
     }
-    
     section h2 {
         font-size: 2rem;
     }
-    
+
     section h3 {
         font-size: 1.5rem;
+        /* margin-top: 40rem; ***************************** */
     }
-    
+
     /* About section */
     #aboutSection {
-        margin-top: 65vh;
+        margin-top: 70vh;
+        margin-top: 35rem;
     }
     
     #aboutSection img, 
@@ -981,6 +983,10 @@ section .but:hover {
     }
     
     /* Rooms section */
+    #roomsection h3 {
+       margin-top: 40rem; 
+    } 
+
     #roomsection .roomcard img {
         width: 90vw;
     }
@@ -998,6 +1004,7 @@ section .but:hover {
     /* Booking section */
     #Booking-now {
         height: 40vh;
+        margin: auto;
     }
     
     #Booking-now div h4 {
@@ -1041,19 +1048,38 @@ section .but:hover {
     }
     
     /* Connection cards */
+    #booking-input{
+        margin-top: 45rem;
+    }
+    #booking-input .booking-form  {
+        height: 75vh;
+
+    }
+    #booking-input .booking-form form p {
+        margin-left: 10%;
+    }
+    #booking-input .booking-form div input {
+        margin-top: 0.5rem;
+    }
     #connection div {
         width: 90%;
         margin: 0 5%;
     }
     
     /* Booking form */
+  
     #booking-input .booking-form {
+        margin-top: 5rem;
         width: 95%;
         margin-left: 2.5%;
     }
     
     #booking-input .booking-form form div {
+        margin-top: 4rem;
         width: 90%;
+    }
+    #booking-input .booking-form p {
+        margin-left: 1rem;
     }
     
     /* Signup section */
