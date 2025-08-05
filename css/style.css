@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 *{
@@ -62,16 +63,10 @@ body {
 #head nav .register a:hover {
     color: #E0A96D;
 }
-
-
-
-
 .hamburger {
   display: none;
   color: white;
 }
-
-
 /* القسم الرئيسي في الموقع الهيرو هوم */
 
 #hero-home {
