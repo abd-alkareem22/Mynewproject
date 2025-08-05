@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function toggleMenu() {
     const nav = document.querySelector('#head nav');
     const ul = nav.querySelector('ul');
@@ -15,7 +15,7 @@ function toggleMenu() {
         nav.style.height = '3rem';
         nav.style.padding = '0.5rem';
     }
-=======
+}
 function toggleMenu() {
     const nav = document.querySelector('#head nav');
     const ul = nav.querySelector('ul');
@@ -32,5 +32,5 @@ function toggleMenu() {
         nav.style.height = '3rem';
         nav.style.padding = '0.5rem';
     }
->>>>>>> 895f76abd3a718dbae3bd5bbcd18e383b9ef6e14
+
 }
